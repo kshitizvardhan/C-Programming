@@ -37,4 +37,5 @@ int main(){
         }
     }
     printf("\nThe minimum element in the 2d-array is %d and index (%d,%d)",min,index1,index2);
+    return 0;
 }
