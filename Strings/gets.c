@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(){
-    char str[40];
+    char str[40];  // Here you have to give size, as you are taking input..
     // scanf("%s",&str);
     // printf("Your input was: %s",str);
     // Kshitiz
@@ -25,6 +25,6 @@ int main(){
 
     // Kshitiz Vardhan
     // Your input was: Kshitiz Vardhan
-    
+
     return 0;
 }
