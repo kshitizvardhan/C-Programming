@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    char arr[] = {'a','t','l','a','s','\0'}; // Putting arr[5] here, does not prints anything as last index holds the null character which is not printed
+    char str[] = {'a','t','l','a','s','\0'}; // Putting arr[5] here, does not prints anything as last index holds the null character which is not printed
     int i = 0;
-    while (arr[i]!='\0'){
-        printf("%c",arr[i]);
+    while (str[i]!='\0'){
+        printf("%c",str[i]);
         i++;
     }         
     printf("\n");
