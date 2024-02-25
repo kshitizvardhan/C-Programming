@@ -9,7 +9,11 @@ int main(){
     }         
     printf("\n");
     // Shortcut Initialization
-    char name[] = "Kshitiz";
-    printf("%c",name[2]);
+    char name[] = "Kshitiz";            // Here no need to mention null character, its automatically added, but in above initialization, you need to add manually.
+    i = 0;
+    while (name[i]!='\0'){
+        printf("%c",name[i]);
+        i++;
+    }   
     return 0;
 }
