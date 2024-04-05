@@ -13,7 +13,7 @@ int eval(int arr[], int max){
 
 int main(){
     int marks[10], max_marks = 0;
-    printf("Enter marks of students: ");
+    printf("Enter marks of students: \n");
     for(int i=0; i<10; i++){
         scanf("%d",&marks[i]);
     }
