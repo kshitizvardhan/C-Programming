@@ -8,6 +8,7 @@ int main(){
         i++;
     }         
     printf("\n");
+    
     // Shortcut Initialization
     char name[] = "Kshitiz";            // Here no need to mention null character, its automatically added, but in above initialization, you need to add manually.
     i = 0;
